@@ -1,0 +1,7 @@
+FROM php:8.0-apache
+
+MAINTAINER FRANCIS BENNETT
+
+COPY * /var/www/html/
+
+EXPOSE 80
